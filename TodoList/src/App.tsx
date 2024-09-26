@@ -62,9 +62,6 @@ const removedTaske = (index:number)=>{
 setcompletedTask(CopycompletedTask)
 
 }
-
-
-
 return (
 
 
