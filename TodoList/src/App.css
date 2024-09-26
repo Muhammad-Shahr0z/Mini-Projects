@@ -1,0 +1,249 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+h1{
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+h4{
+text-align: center;
+font-size: .8rem;
+color: rgb(93, 93, 93);
+font-weight: 500;
+letter-spacing: .8px; ;
+margin-top: 12px;
+margin-bottom: 0px;
+
+}
+
+.checkbtn{
+background-color: #0e71db28;
+margin: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 5px;
+padding:5px  20px 5px 0px;
+
+}
+.checkbtn button{
+height: 20px;
+width: 40px;
+background-color: green;
+color: white;
+border-radius: 5px;
+border: none;
+box-shadow: 0 3px 2px rgb(0, 0, 0);
+cursor: pointer;
+transition: transform 0.2s ease;
+
+}
+
+.checkbtn button:active {
+  transform: scale(0.95);
+}
+
+
+.showTaskButton{
+  height: 35px;
+width: fit-content;
+padding: 10px;
+background-color: green;
+color: white;
+border-radius: 5px;
+border: none;
+box-shadow: 0 3px 2px rgb(0, 0, 0);
+cursor: pointer;
+transition: transform 0.2s ease;
+}
+.showTaskButton:active {
+  transform: scale(0.95);
+}
+
+
+
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ min-width: 100vw;
+ background: linear-gradient(to bottom right, #ffffff, #007bff);
+}
+
+.container{
+  background: linear-gradient(to bottom right, #ffffff, #007bff);
+  box-shadow: 0 4px 8px rgba(0, 0, 255, 0.5);
+  min-height:40vh;
+  min-width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 12px;
+  
+}
+
+.container .inputButton {
+  display: flex;
+  width: 450px;
+  height: 45px;
+  box-shadow: 0 4px 8px rgba(0, 0, 255, 0.5);
+  border-radius:5px;
+  margin-top: 20px;
+}
+
+.container .inputButton input {
+  border: none;
+  width:82%;
+  height: 100%;
+  outline: none;
+  background-color: transparent;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+.container .inputButton button {
+  width: 30%;
+  background-color: #0159b75d;
+  outline: none;
+  border: none;
+  transition: transform 0.2s ease;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+.container .inputButton button:active {
+  transform: scale(0.95);
+}
+
+
+.list{
+justify-self: end;
+font-size: 1.8rem;
+font-weight: 500;
+text-align: start;
+margin-top: 20px;
+width: 16em;
+}
+
+
+.list li{
+
+  border-radius: 12px;
+  font-size: 1.5rem;
+  padding: 0px 0px 0px 5px;
+  color: rgb(0, 0, 0);
+  height: 30px;
+  font-size: 1.2rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
+  height:100%;;
+  
+}
+
+.hide-div {
+  display: none;
+}
+
+#deleteTaskbtn{
+
+ 
+background:none;
+box-shadow: 0px 1px 3px 1px rgb(0, 0, 0);
+
+
+}
+
+
+@media only screen and (max-width: 495px) {
+  
+  .container{
+    justify-content: start;
+    background:none;
+    border: none;
+    box-shadow: none;
+    min-height:100vh;
+    width: 100vw;
+
+
+  }
+
+    .container .inputButton {
+      
+      width: 350px;
+      height: 45px;
+      border-radius:5px;
+     
+      
+    }
+
+    h1{
+      margin-top: 30px;
+    }
+    .list{
+      width: 14em;
+    }
+    
+  
+
+}
+
+
+
+@media only screen and (max-width: 417px) {
+  
+
+.list{
+
+    padding: 20px 0px 0px 0px;
+    width: 11em;
+   
+  }
+
+
+
+
+  .container .inputButton {
+      
+    width: 300px;
+    min-height: 40px;
+    
+  }
+
+  .container .inputButton input{
+      
+    
+    font-size: 1rem;
+
+  }
+  .container .inputButton button{
+      
+    
+    font-size: .6rem;
+    font-weight: 600;
+
+  }
+  .list li{
+    font-size: 1.2rem;
+    
+  }
+
+  
+
+}
