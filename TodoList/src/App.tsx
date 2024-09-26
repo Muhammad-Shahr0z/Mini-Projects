@@ -77,7 +77,7 @@ return (
 <input
 id='myInput'
 type="text"
-placeholder='Enter Your Taske Here'
+placeholder='Enter Your Task Here'
 value={inputVal}
 onChange={(e)=>{inputValue(e.target.value)}
 }/>
