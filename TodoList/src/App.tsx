@@ -69,6 +69,7 @@ return (
 
 
 <div className="container">
+<h4>Todo List App Designed And Developed By Muhammad Shahroz</h4>
 <h1>Todo List App</h1>
 
 
@@ -107,7 +108,6 @@ onChange={(e)=>{inputValue(e.target.value)}
 </div>
 
 
-<h4>Todo List App Designed And Developed By Muhammad Shahroz</h4>
 </div>
 
    
